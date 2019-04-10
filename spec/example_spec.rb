@@ -1,37 +1,48 @@
 require 'spec_helper'
 
-describe 'These examples' do
-  it 'can be used to confirm if a method is present in required relative' do
-    expect { test_method }.not_to raise_error
+describe "#using_include" do 
+  it "takes in arguments of an array and an element and returns true if the array includes that element, false if it does not." do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    element1 = "wow"
+    element2 = "Tardis"
+    expect(using_include(array, element1)).to eq(true)
+    expect(using_include(array, element2)).to eq(false)
   end
+end
 
-  it 'can be used to confirm if a method is not present in required relative' do
-    expect { second_test_method }.to raise_error(NameError)
+describe "#using_sort" do 
+  it "takes in an argument of an array and returns the sorted array." do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_sort(array).last).to eq("wow")
+    expect(using_sort(array).first).to eq("I")
   end
+end
 
-  it 'can be used to confirm if a method returns expected results in required relative' do
-    expect(test_method).to eq('bears') # equal(): strict comparison, eq(): value comparison
+describe "#using_reverse" do 
+  it "takes in argument of an array and returns that same array with the contents reversed." do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_reverse(array).first).to eq("arrays!")
+    expect(using_reverse(array).last).to eq("wow")
   end
+end
 
-  it 'can be used to confirm if a class contains a specific method' do
-    expect(ExampleClass).to respond_to(:class_test)
+describe "#using_first" do 
+  it "takes in argument of an array and and returns the first element in the array" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_first(array)).to eq("wow")
   end
+end
 
-  it 'can be used to confirm if an instance method returns the expected results' do
-    example = ExampleClass.new
-    expect(example.instance_test).to eq('seriously')
+describe "#using_last" do 
+  it "takes in argument of an array and and returns the last element in the array" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_last(array)).to eq("arrays!")
   end
+end
 
-  it 'can be used to match strings' do
-    expect('There are two bears in a tree').to match(/bears in a tree/)
-    expect("They're both on the same limb").to include('limb')
-  end
-
-  it 'can check types' do
-    example = ExampleClass.new
-    expect(example).to be_instance_of(ExampleClass)
-
-    example_array = [1, 2, 3]
-    expect(example_array).to be_kind_of(Array)
+describe "#using_size" do 
+  it "takes in argument of an array and and returns the size, or length, of the array" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_size(array)).to eq(6)
   end
 end

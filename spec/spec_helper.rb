@@ -1,3 +1,5 @@
+require_relative '../lib/array_methods.rb'
+
 require 'bundler'
 Bundler.require
 require 'yaml'
