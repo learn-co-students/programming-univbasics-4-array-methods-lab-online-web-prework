@@ -29,7 +29,7 @@ This method takes in two arguments: an array and an element. The test is
 expecting the `#using_include` method to return `true` if the array contains
 that element and `false` if it doesn't.
 
-We already know about a method that does just that: `#include?`. This method is
+We've already discussed a method that does just that: `#include?`. This method is
 called on an array and takes in an argument of an element. It returns `true` if
 the array contains that element and `false` if it does not.
 
