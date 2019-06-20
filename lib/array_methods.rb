@@ -1,4 +1,6 @@
-def using_include(array, element)
+def colors = blue
+  colors.include?
+  (red)
 
 end
 
