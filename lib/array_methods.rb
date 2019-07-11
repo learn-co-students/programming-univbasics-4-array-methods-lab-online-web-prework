@@ -1,23 +1,33 @@
-def using_include(array, element)
+def methods_include =["wow","I","am","really","learning","arrays"]
+#binding.pry
+  methods_include.include?("wow")
+  methods_include.include?("Tardis")
+  
+end
+
+def methods_sort =["wow","I","am","really","learning","arrays"]
+  methods_sort.sort
+  
+  
+end
+
+def methods_reverse =["wow","I","am","really","learning","arrays"]
+methods_reverse.reverse
 
 end
 
-def using_sort(array)
+
+def methods_first =["wow","I","am","really","learning","arrays"]
+  methods_first.first
 
 end
 
-def using_reverse(array)
+def methods_last =["wow", "I","am","really","learning","arrays"]
+methods_last.last
 
 end
 
-def using_first(array)
-
-end
-
-def using_last(array)
-
-end
-
-def using_size(array)
+def methods_size =["wow", "I","am","really","learning","arrays"]
+  methods_size.size
 
 end
