@@ -2,7 +2,7 @@
 
 describe "using_include"
   it "takes in arguments of an array and an element and returns true if the array includes that element, false if it does not."
-    array =
+    array = ["wow,"]
 
 end
 
