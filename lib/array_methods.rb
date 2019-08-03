@@ -1,4 +1,14 @@
-def using_include(array, element)
+'../lib/array-methods.rb'
+
+describe "using_include"
+  it "takes in arguments of an array and an element and returns true if the array includes that element, false if it does not."
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    element1 = "wow"
+    element2 = "tardis"
+    expect (using_include(array,element1)).to eq('true')
+    expect (using_include(array,element2)).to eq('false')
+  end
+end
 
 end
 
