@@ -1,23 +1,26 @@
-def using_include(array, element)
+def famous_cats = ["bub", "pig", "pelu"]
+famous_cats.include ? ("plank")
+end
+
+def famous_cats = ["bub", "pig", "pelu"]
+  famous_cats.sort 
 
 end
 
-def using_sort(array)
+def famous_cats = ["bub", "pig", "pelu"]
+  famous_cats.reverse
 
 end
 
-def using_reverse(array)
+def famous_cats = ["bub", "pig", "pelu"]
+famous_cats.first 
+end
+
+def famous_cats = ["bub", "pig", "pelu"]
+  famous_cats.last
 
 end
 
-def using_first(array)
-
-end
-
-def using_last(array)
-
-end
-
-def using_size(array)
-
+def famous_cats = ["bub", "pig", "pelu"]
+famous_cats.size
 end
