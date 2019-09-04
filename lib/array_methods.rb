@@ -1,23 +1,23 @@
 def using_include(array, element)
 
-end
+end array.include?(element)
 
 def using_sort(array)
 
-end
+end array.sort(element)
 
 def using_reverse(array)
 
-end
+end array.reverse
 
 def using_first(array)
 
-end
+end array.reverse
 
 def using_last(array)
 
-end
+end array.last
 
 def using_size(array)
 
-end
+end array.size
