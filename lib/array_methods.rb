@@ -1,23 +1,18 @@
-def using_include(array, element)
-
+my_array=[3,9,6,0,7]
 end
 
-def using_sort(array)
-
+def sorted_array= my_array.sort
 end
 
-def using_reverse(array)
-
+def my_array.reverse
 end
 
-def using_first(array)
-
+def my_array.include?(21)
 end
 
-def using_last(array)
+def
 
-end
 
-def using_size(array)
 
-end
+
+
