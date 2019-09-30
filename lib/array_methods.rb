@@ -1,23 +1,18 @@
-def using_include(array, element)
-
+def crystals(ruby,oynx)
+  crystals.include?(diamond)
 end
 
-def using_sort(array)
-
+def crystals.sort
 end
 
-def using_reverse(array)
-
+def crystals.reverse
 end
 
-def using_first(array)
-
+def crystals.first
 end
 
-def using_last(array)
-
+def crystals.last 
 end
 
-def using_size(array)
-
+def crystals.size
 end
