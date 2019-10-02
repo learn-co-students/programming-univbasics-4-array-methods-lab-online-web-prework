@@ -1,11 +1,8 @@
-def using_include(array, element1)
+def using_include(array, element)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array.include?("wow")
-end
-
-def using_include(array, element2)
-  array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  array.include?("Tardis")
+  element1 = array.include?("wow")
+  element2 = "Tardis"
+  array.include?(element)
 end
 
 def using_sort(array)
