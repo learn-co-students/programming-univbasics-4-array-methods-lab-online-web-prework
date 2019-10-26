@@ -1,23 +1,23 @@
-def using_include(array, element)
-
+def my_words["good", "better", "owesome", "great"]
+my_words.include? ("better")
 end
 
-def using_sort(array)
-
+def my_words["good", "better", "owesome", "great"]
+my_words.sort
 end
 
-def using_reverse(array)
-
+def my_words["good", "better", "owesome", "great"]
+my_words.reverse
 end
 
-def using_first(array)
-
+def my_words["good", "better", "owesome", "great"]
+my_words.first
 end
 
-def using_last(array)
-
+def my_words["good", "better", "owesome", "great"]
+my_words.last
 end
 
-def using_size(array)
-
+def my_words["good", "better", "owesome", "great"]
+my_words.size
 end
