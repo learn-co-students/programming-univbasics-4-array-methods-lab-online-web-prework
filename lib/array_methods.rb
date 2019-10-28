@@ -1,23 +1,41 @@
-def using_include(array, element)
-
+def using_include
+using_include = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+using_include.include?("Chelsea")
 end
 
-def using_sort(array)
+p using_include
 
+def using_sort
+using_sort = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+using_sort.sort
 end
 
-def using_reverse(array)
+p using_sort
 
+def using_reverse
+using_reverse = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+using_reverse.reverse
 end
 
-def using_first(array)
+p using_reverse
 
+def using_first
+using_first = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+using_first.first
 end
 
-def using_last(array)
+p using_first
 
+def using_last
+using_last = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+using_last.last
 end
 
-def using_size(array)
+p using_last
 
+def using_size
+using_size = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+using_size.size
 end
+
+p using_size
