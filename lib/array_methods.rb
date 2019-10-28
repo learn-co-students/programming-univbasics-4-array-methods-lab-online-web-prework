@@ -1,8 +1,11 @@
-def using_include(array, element)
+#lib/array_methods.rb
 
+def using_include(array, element)
+  array.include?(element)
 end
 
-def using_sort(array)
+favorite_basketball_players = ["Lebron James", "Michael Jordan", "Allen Iverson"]
+favorite_basketball_players.sort
 
 end
 
