@@ -1,10 +1,15 @@
 #def using_include(array, element)
 
-using_include = ["array", "element"]
-using_include.include? ("Garfield")
-    => false
-using_include.include?("Maru")
-    => true
+#using_include = ["array", "element"]
+#using_include.include? ("Garfield")
+    #=> false
+#using_include.include?("Maru")
+    #=> true
+
+
+    using_include("array", "element")
+     array.include?(element)
+
 
 #end
 
