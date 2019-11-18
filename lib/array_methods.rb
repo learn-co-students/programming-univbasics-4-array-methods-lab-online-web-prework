@@ -1,10 +1,10 @@
 def using_include(array, element)
 
-jamil_docs = ["rana", "bostan"]
-jamil_docs.include? ("rana")
-=> false
-jamil_docs.include? ("book")
-=> true
+  famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+  famous_cats.include?("Garfield")
+    => false
+  famous_cats.include?("Maru")
+    => true
 
 end
 
