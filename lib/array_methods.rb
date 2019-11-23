@@ -1,23 +1,37 @@
-def using_include(array, element)
+def Starting_Lakers("Lebron","Davis","Green")
+  Starting_Lakers include?("Lebron","Davis","Green")
 
 end
 
-def using_sort(array)
+def Starting_Lakers("Lebron","Davis","Green")
+  Starting_Lakers.sort
+  
+  => ["Davis","Green","Lebron"]
+
+
+
 
 end
 
-def using_reverse(array)
+def Starting_Lakers("Lebron","Davis","Green")
+  Starting_Lakers.reverse
+  => ["Green","Davis","Lebron"]
+  
 
 end
 
-def using_first(array)
+def Starting_Lakers("Green","Davis","Lebron")
+  Starting_Lakers.first
+  => "Green"
 
 end
 
-def using_last(array)
-
+  def Starting_Lakers("Green","Davis","Lebron")
+    Starting_Lakers.last
+    =>"Lebron"
 end
 
-def using_size(array)
-
+def Starting_Lakers("Green","Davis","Lebron")
+  Starting_Lakers.size
+    => 3
 end
