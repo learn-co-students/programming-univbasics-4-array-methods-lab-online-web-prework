@@ -1,23 +1,50 @@
-def using_include(array, element)
+#def using_include(array, element)
 
-end
+#using_include = ["array", "element"]
+#using_include.include? ("Garfield")
+    #=> false
+#using_include.include?("Maru")
+    #=> true
 
-def using_sort(array)
 
-end
+    using_include("array", "element")
+     array.include?(element)
 
-def using_reverse(array)
 
-end
+#end
 
-def using_first(array)
+#def using_sort(array)
 
-end
+jamil_docs = ["rana", "bostan"]
 
-def using_last(array)
+jamil_docs.sort
 
-end
 
-def using_size(array)
+#end
 
-end
+#def using_reverse(array)
+
+jamil_docs = ["rana", "bostan"]
+
+jamil_docs.reverse
+
+#end
+#def using_first(array)
+
+jamil_docs = ["rana", "bostan"]
+jamil_docs.first
+
+#end
+
+#def using_last(array)
+
+jamil_docs = ["rana", "bostan"]
+jamil_docs.last
+#end
+
+#def using_size(array)
+
+jamil_docs = ["rana", "bostan"]
+jamil_docs.size
+
+#end
